@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>جزئیات کسب‌وکار - Yelp Clone</title>
+  <link href="https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.css" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- هدر -->
+  <header>
+    <div class="container">
+      <h1>Yelp Clone</h1>
+      <nav>
+        <a href="../index.html">خانه</a>
+        <a href="categories.html">دسته‌بندی‌ها</a>
+        <a href="login.html">ورود</a>
+        <a href="signup.html">ثبت‌نام</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- جزئیات کسب‌وکار -->
+  <section class="details-section">
+    <div class="container">
+      <img src="https://via.placeholder.com/600x300" alt="کسب‌وکار" class="details-image">
+      <h2 id="businessName">رستوران نمونه</h2>
+      <p id="businessCategory" class="details-category">رستوران - تهران</p>
+      <div id="businessRating" class="details-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i> (۱۲ نظر)</div>
+      <p id="businessDescription" class="details-description">توضیحات: رستوران نمونه با غذاهای سنتی ایرانی و محیطی گرم، یکی از بهترین گزینه‌ها در تهران است.</p>
+      
+      <!-- فرم ثبت نظر -->
+      <h3>ثبت نظر</h3>
+      <form class="review-form">
+        <textarea placeholder="نظر خود را بنویسید..." required></textarea>
+        <div class="star-rating">
+          <input type="radio" name="rating" id="star5" value="5"><label for="star5"><i class="fas fa-star"></i></label>
+          <input type="radio" name="rating" id="star4" value="4"><label for="star4"><i class="fas fa-star"></i></label>
+          <input type="radio" name="rating" id="star3" value="3"><label for="star3"><i class="fas fa-star"></i></label>
+          <input type="radio" name="rating" id="star2" value="2"><label for="star2"><i class="fas fa-star"></i></label>
+          <input type="radio" name="rating" id="star1" value="1"><label for="star1"><i class="fas fa-star"></i></label>
+        </div>
+        <button type="submit">ارسال نظر</button>
+      </form>
+
+      <!-- نظرات -->
+      <h3>نظرات کاربران</h3>
+      <div id="reviewsList" class="reviews-list">
+        <div class="review-item">
+          <p class="review-user">علی ر.:</p>
+          <p>غذا عالی بود! خدمات هم خوب.</p>
+          <div class="review-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+        </div>
+        <div class="review-item">
+          <p class="review-user">مریم ک.:</p>
+          <p>محیط زیبا، ولی کمی شلوغ بود.</p>
+          <div class="review-rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- فوتر -->
+  <footer>
+    <div class="container">
+      <p>ساخته شده برای رزومه - الهام گرفته از Yelp.com</p>
+    </div>
+  </footer>
+
+  <script src="../assets/js/script.js"></script>
+</body>
+</html>

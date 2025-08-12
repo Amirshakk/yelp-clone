@@ -1,24 +1,23 @@
 # Yelp Clone Project
 
-This is a simple clone of Yelp.com built for resume purposes. It replicates key features of Yelp, including a homepage with a search bar, business listings, a business details page, and login/signup pages.
+This is a full clone of Yelp.com built for resume purposes. It replicates key features of Yelp, including a homepage with search, business listings, business details, login/signup pages, categories, and a review submission form.
 
 ## Features
-- **Homepage**: Search bar and list of businesses with ratings.
-- **Business Details**: Displays detailed information and reviews for a selected business.
-- **Login/Signup**: Simple static forms for user authentication.
-- **Responsive Design**: Works on desktop and mobile devices.
+- **Homepage**: Search bar with business listings and ratings.
+- **Business Details**: Dynamic business details and reviews loaded from JSON.
+- **Categories**: Browse businesses by category (e.g., restaurants, cafes).
+- **Login/Signup**: Static forms for user authentication.
+- **Review Form**: Static form for submitting reviews on business details page.
+- **Responsive Design**: Optimized for desktop and mobile.
 - **Persian Language Support**: Uses Vazir font for Persian text.
+- **Icons**: Font Awesome for star ratings and search icons.
 
 ## Tech Stack
 - HTML, CSS, JavaScript
+- Data: JSON file for business data
 - Font: Vazir (via CDN)
+- Icons: Font Awesome (via CDN)
 - Deployed on GitHub Pages
-
-
-## How to Run Locally
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Amirshakk/yelp-clone.git
 
 
 ## Live demo 
