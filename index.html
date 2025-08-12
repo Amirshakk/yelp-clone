@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yelp Clone - رزومه</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- هدر -->
+  <header>
+    <div class="container">
+      <h1>Yelp Clone</h1>
+      <nav>
+        <a href="#">ورود</a>
+        <a href="#">ثبت‌نام</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- بخش جستجو -->
+  <section class="search-section">
+    <div class="container">
+      <input type="text" id="searchInput" placeholder="جستجوی کسب‌وکار، رستوران، خدمات...">
+      <input type="text" id="locationInput" placeholder="موقعیت (مثلاً تهران)">
+      <button onclick="searchBusinesses()">جستجو</button>
+    </div>
+  </section>
+
+  <!-- لیست کسب‌وکارها -->
+  <section class="business-section">
+    <div class="container">
+      <h2>کسب‌وکارهای پیشنهادی</h2>
+      <div id="businessList" class="business-list">
+        <!-- اینجا با JavaScript پر می‌شه -->
+      </div>
+    </div>
+  </section>
+
+  <!-- فوتر -->
+  <footer>
+    <div class="container">
+      <p>ساخته شده برای رزومه - الهام گرفته از Yelp.com</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
