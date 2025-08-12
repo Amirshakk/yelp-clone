@@ -38,14 +38,14 @@ function searchBusinesses() {
 
   // نمایش نتایج
   filteredBusinesses.forEach(business => {
-    const businessDiv = document.createElement('a');
-    businessDiv.href = 'business-details.html';
+    const businessDiv = document.createElement('div');
     businessDiv.className = 'business-item';
     businessDiv.innerHTML = `
       <img src="${business.image}" alt="${business.name}">
       <h3>${business.name}</h3>
       <p>${business.category} - ${business.location}</p>
       <div class="rating">${business.rating} (${business.reviews} نظر)</div>
+      <a href="business-details.html" class="details-button">مشاهده جزئیات</a>
     `;
     businessList.appendChild(businessDiv);
   });
