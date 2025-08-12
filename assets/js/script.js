@@ -45,7 +45,7 @@ function searchBusinesses() {
       <h3>${business.name}</h3>
       <p>${business.category} - ${business.location}</p>
       <div class="rating">${business.rating} (${business.reviews} نظر)</div>
-      <a href="business-details.html" class="details-button">مشاهده جزئیات</a>
+      <a href="pages/business-details.html" class="details-button">مشاهده جزئیات</a>
     `;
     businessList.appendChild(businessDiv);
   });
