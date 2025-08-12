@@ -38,7 +38,8 @@ function searchBusinesses() {
 
   // نمایش نتایج
   filteredBusinesses.forEach(business => {
-    const businessDiv = document.createElement('div');
+    const businessDiv = document.createElement('a');
+    businessDiv.href = 'business-details.html';
     businessDiv.className = 'business-item';
     businessDiv.innerHTML = `
       <img src="${business.image}" alt="${business.name}">
