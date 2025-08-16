@@ -53,6 +53,10 @@ async function searchBusinesses() {
   }
 }
 
+function initMap() {
+  // این تابع فقط در business-details.html فراخوانی می‌شود
+}
+
 async function loadBusinessDetails() {
   const urlParams = new URLSearchParams(window.location.search);
   const businessId = urlParams.get('id');
@@ -79,6 +83,18 @@ async function loadBusinessDetails() {
       <div class="review-rating">${renderStars(review.rating)}</div>
     `;
     reviewsList.appendChild(reviewDiv);
+  });
+
+  // مقداردهی اولیه نقشه
+  const map = new google.maps.Map(document.getElementById('map'), {
+    center: { lat: business.lat, lng: business.lng },
+    zoom: 15
+  });
+
+  new google.maps.Marker({
+    position: { lat: business.lat, lng: business.lng },
+    map: map,
+    title: business.name
   });
 }
 

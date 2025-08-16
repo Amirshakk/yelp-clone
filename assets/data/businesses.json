@@ -8,6 +8,8 @@
     "reviews": 12,
     "image": "https://via.placeholder.com/600x300",
     "description": "رستوران نمونه با غذاهای سنتی ایرانی و محیطی گرم، یکی از بهترین گزینه‌ها در تهران است.",
+    "lat": 35.6892,
+    "lng": 51.3890,
     "reviewsList": [
       {
         "user": "علی ر.",
@@ -30,6 +32,8 @@
     "reviews": 8,
     "image": "https://via.placeholder.com/600x300",
     "description": "کافه نمونه با فضایی دنج و قهوه‌های باکیفیت، مکانی عالی برای دورهمی‌هاست.",
+    "lat": 35.7000,
+    "lng": 51.4000,
     "reviewsList": [
       {
         "user": "سارا م.",
